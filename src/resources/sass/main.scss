@@ -1,0 +1,26 @@
+@charset 'UTF-8';
+
+@import
+	'abstracts/variables',
+	'abstracts/helpers',
+	'abstracts/errors';
+
+@import 'base/base';
+
+@import
+	'layout/grid',
+	'layout/nav';
+
+@import
+	'components/logo',
+	'components/avatar',
+	'components/badge',
+	'components/table';
+
+@import
+	'pages/employees',
+	'pages/profile';
+
+@import 'vendor/slick-slide';
+
+@import 'themes/toastify';

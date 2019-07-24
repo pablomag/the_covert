@@ -1,0 +1,12 @@
+.error-tooltip {
+	z-index: 10;
+	position: relative;
+	float: right;
+	right: 0;
+	bottom: 0;
+	font-size: .9rem;
+	color: $error-tooltip-color;
+	width: fit-content;
+	padding: .05rem .7rem .15rem;
+	line-height: 1rem;
+}

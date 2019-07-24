@@ -1,0 +1,59 @@
+.table-title {
+	min-width: 10rem;
+}
+
+.table-label {
+	line-height: 1rem;
+	user-select: none;
+
+	&--clickable {
+		cursor: pointer;
+	}
+
+	&--order--desc::after {
+		position: relative;
+		top: -.25rem;
+		padding-left: .35rem;
+		font-family: $font-awesome;
+		font-weight: 900;
+		font-size: 1.3rem;
+		content: "\f0dd";
+	}
+
+	&--order--asc::after {
+		position: relative;
+		top: .3rem;
+		padding-left: .35rem;
+		font-family: $font-awesome;
+		font-weight: 900;
+		font-size: 1.3rem;
+		content: "\f0de";
+	}
+}
+
+.table-row {
+	&__item {
+		line-height: 2rem;
+
+		&:first-child {
+			padding-left: 2rem;
+		}
+
+		&:last-child {
+			padding-right: 2rem;
+		}
+	}
+ 
+	&__link {
+		font-style: normal;
+		font-weight: 400;
+		color: black;
+		cursor: pointer;
+
+		&:hover {
+			color: white;
+			background-color: $table-row-link-color !important;
+			text-decoration: none;
+		}
+	}
+}

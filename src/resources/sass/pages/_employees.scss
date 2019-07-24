@@ -1,0 +1,20 @@
+.employees-list {
+	&__header {
+		padding: 0 1rem;
+		margin-top: 0;
+		margin-bottom: 2rem;
+		border: 1px solid grey;
+		border-radius: 1rem;
+	}
+
+	&__content {
+		margin: 0;
+	}
+}
+
+.employees-carousel {
+	margin: .55rem 1rem;
+	border: solid 2rem transparent;
+	box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, .6);
+	background-color: $card-background-color;
+}
