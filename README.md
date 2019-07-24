@@ -12,6 +12,19 @@ Tools included in the project:
 - Node SASS
 - Webpack
 
+Mock API endpoints:
+
+http://yg32o.mocklab.io/employees
+- List of employees
+
+http://yg32o.mocklab.io/comments
+- List of comments
+
+http://yg32o.mocklab.io//comments/Aaliyah+Myles
+- List of comments for a specific employee
+
+NOTE: Is hosted in mocklab.io on a free trial account, might not work after the trial period ends.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
