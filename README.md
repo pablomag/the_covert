@@ -20,7 +20,7 @@ http://yg32o.mocklab.io/employees
 http://yg32o.mocklab.io/comments
 - List of comments
 
-http://yg32o.mocklab.io//comments/Aaliyah+Myles
+http://yg32o.mocklab.io/comments/Aaliyah+Myles
 - List of comments for a specific employee
 
 NOTE: Is hosted in mocklab.io on a free trial account, might not work after the trial period ends.
